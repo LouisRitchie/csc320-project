@@ -1,6 +1,8 @@
-grid 1
-Memory used           : 1.68 MB
-CPU time              : 0.004 s
+Grid 1
+Memory used: 1.68 MB
+CPU time: 0.004 s
+
+Ouput:
 
 483921657
 967345821
@@ -12,10 +14,11 @@ CPU time              : 0.004 s
 814253769
 695417382
 
+Grid 2
+Memory used: 1.68 MB
+CPU time: 0.004 s
 
-grid 2
-Memory used           : 1.68 MB
-CPU time              : 0.004 s
+Ouput:
 
 245981376
 169273584
@@ -27,10 +30,11 @@ CPU time              : 0.004 s
 728349165
 654812793
 
+Grid 3
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 3
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 462831957
 795426183
@@ -42,10 +46,11 @@ CPU time              : 0.004 s
 834259671
 517643892
 
+Grid 4
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 4
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 137256849
 928314567
@@ -57,10 +62,11 @@ CPU time              : 0.004 s
 391428675
 784965123
 
+Grid 5
+Memory used: 1.80 MB
+CPU time: 0 s
 
-grid 5
-Memory used           : 1.80 MB
-CPU time              : 0 s
+Ouput:
 
 523816749
 784593126
@@ -73,10 +79,11 @@ CPU time              : 0 s
 876351492
 
 
+Grid 6
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 6
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 176923584
 524817639
@@ -88,10 +95,11 @@ CPU time              : 0.004 s
 781236945
 349571826
 
+Grid 7
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 7
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 143986257
 679425381
@@ -103,10 +111,11 @@ CPU time              : 0.004 s
 796143825
 534892716
 
+Grid 8
+Memory used: 1.68 MB
+CPU time: 0.004 s
 
-grid 8
-Memory used           : 1.68 MB
-CPU time              : 0.004 s
+Ouput:
 
 487156932
 362498751
@@ -118,10 +127,11 @@ CPU time              : 0.004 s
 738941625
 659237418
 
+Grid 9
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 9
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 814976532
 659123478
@@ -133,10 +143,11 @@ CPU time              : 0.004 s
 587439621
 426517983
 
+Grid 10
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 10
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 761928453
 925743168
@@ -149,10 +160,11 @@ CPU time              : 0.004 s
 573296841
 
 
+Grid 11
+Memory used: 1.80 MB
+CPU time: 0 s
 
-grid 11
-Memory used           : 1.80 MB
-CPU time              : 0 s
+Ouput:
 
 976125438
 158436927
@@ -164,10 +176,11 @@ CPU time              : 0 s
 395647281
 641298573
 
+Grid 12
+Memory used: 1.81 MB
+CPU time: 0.004 s
 
-grid 12
-Memory used           : 1.81 MB
-CPU time              : 0.004 s
+Ouput:
 
 962341758
 148975623
@@ -179,15 +192,17 @@ CPU time              : 0.004 s
 216459387
 759183264
 
+Grid 13
+Memory used: 1.68 MB
+CPU time: 0.004 s
 
-grid 13
-Memory used           : 1.68 MB
-CPU time              : 0.004 s
+Ouput:
 
+Grid 14
+Memory used: 1.67 MB
+CPU time: 0.004 s
 
-grid 14
-Memory used           : 1.67 MB
-CPU time              : 0.004 s
+Ouput:
 
 639218457
 471539268
@@ -199,10 +214,11 @@ CPU time              : 0.004 s
 186345972
 947162583
 
+Grid 15
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 15
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 697128345
 428635197
@@ -214,10 +230,11 @@ CPU time              : 0.004 s
 752963814
 863714529
 
+Grid 16
+Memory used: 1.80 MB
+CPU time: 0 s
 
-grid 16
-Memory used           : 1.80 MB
-CPU time              : 0 s
+Ouput:
 
 361725948
 587964213
@@ -229,10 +246,11 @@ CPU time              : 0 s
 923518764
 815476329
 
+Grid 17
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 17
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 359867124
 648312597
@@ -244,10 +262,11 @@ CPU time              : 0.004 s
 465298713
 287153649
 
+Grid 18
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 18
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 786945312
 219863457
@@ -259,10 +278,11 @@ CPU time              : 0.004 s
 842356791
 673194285
 
+Grid 19
+Memory used: 1.80 MB
+CPU time: 0 s
 
-grid 19
-Memory used           : 1.80 MB
-CPU time              : 0 s
+Ouput:
 
 743512986
 589346217
@@ -274,10 +294,11 @@ CPU time              : 0 s
 417829653
 265134879
 
+Grid 20
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 20
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 782614359
 439825176
@@ -289,10 +310,11 @@ CPU time              : 0.004 s
 975183642
 814256937
 
+Grid 21
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 21
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 428531796
 365947182
@@ -304,10 +326,11 @@ CPU time              : 0.004 s
 752389641
 136724859
 
+Grid 22
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 22
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 425781936
 178369524
@@ -319,10 +342,11 @@ CPU time              : 0.004 s
 536478219
 241935678
 
+Grid 23
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 23
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 348267951
 571943628
@@ -334,10 +358,11 @@ CPU time              : 0.004 s
 982436715
 736512849
 
+Grid 24
+Memory used: 1.80 MB
+CPU time: 0 s
 
-grid 24
-Memory used           : 1.80 MB
-CPU time              : 0 s
+Ouput:
 
 124986735
 867435912
@@ -349,10 +374,11 @@ CPU time              : 0 s
 983547126
 546123879
 
+Grid 25
+Memory used: 1.81 MB
+CPU time: 0.004 s
 
-grid 25
-Memory used           : 1.81 MB
-CPU time              : 0.004 s
+Ouput:
 
 361524789
 789361425
@@ -364,10 +390,11 @@ CPU time              : 0.004 s
 235418976
 976235814
 
+Grid 26
+Memory used: 1.68 MB
+CPU time: 0.004 s
 
-grid 26
-Memory used           : 1.68 MB
-CPU time              : 0.004 s
+Ouput:
 
 581479263
 329156847
@@ -379,10 +406,11 @@ CPU time              : 0.004 s
 893247615
 465813792
 
+Grid 27
+Memory used: 1.68 MB
+CPU time: 0.004 s
 
-grid 27
-Memory used           : 1.68 MB
-CPU time              : 0.004 s
+Ouput:
 
 387256419
 469781325
@@ -395,10 +423,11 @@ CPU time              : 0.004 s
 946312758
 
 
+Grid 28
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 28
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 345871269
 279653184
@@ -410,10 +439,11 @@ CPU time              : 0.004 s
 516937428
 924185673
 
+Grid 29
+Memory used: 1.68 MB
+CPU time: 0.004 s
 
-grid 29
-Memory used           : 1.68 MB
-CPU time              : 0.004 s
+Ouput:
 
 235761489
 419328576
@@ -425,10 +455,11 @@ CPU time              : 0.004 s
 652913847
 178654392
 
+Grid 30
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 30
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 298175643
 657394128
@@ -440,10 +471,11 @@ CPU time              : 0.004 s
 785912364
 946537812
 
+Grid 31
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 31
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 761543289
 832791645
@@ -455,10 +487,11 @@ CPU time              : 0.004 s
 953872416
 286154793
 
+Grid 32
+Memory used: 1.80 MB
+CPU time: 0 s
 
-grid 32
-Memory used           : 1.80 MB
-CPU time              : 0 s
+Ouput:
 
 132649785
 758213649
@@ -470,10 +503,11 @@ CPU time              : 0 s
 327154968
 485962371
 
+Grid 33
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 33
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 698173542
 354628179
@@ -485,10 +519,11 @@ CPU time              : 0.004 s
 213784695
 489265731
 
+Grid 34
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 34
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 852716943
 197843652
@@ -500,10 +535,11 @@ CPU time              : 0.004 s
 314258769
 529367814
 
+Grid 35
+Memory used: 1.68 MB
+CPU time: 0.004 s
 
-grid 35
-Memory used           : 1.68 MB
-CPU time              : 0.004 s
+Ouput:
 
 453218796
 629753481
@@ -515,10 +551,11 @@ CPU time              : 0.004 s
 937641258
 861325947
 
+Grid 36
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 36
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 516289347
 849173256
@@ -530,10 +567,11 @@ CPU time              : 0.004 s
 275648193
 483591672
 
+Grid 37
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 37
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 945681723
 781234965
@@ -545,10 +583,11 @@ CPU time              : 0.004 s
 612598437
 893417652
 
+Grid 38
+Memory used: 1.80 MB
+CPU time: 0 s
 
-grid 38
-Memory used           : 1.80 MB
-CPU time              : 0 s
+Ouput:
 
 365942871
 128756493
@@ -560,10 +599,11 @@ CPU time              : 0 s
 753691284
 481527936
 
+Grid 39
+Memory used: 1.81 MB
+CPU time: 0.004 s
 
-grid 39
-Memory used           : 1.81 MB
-CPU time              : 0.004 s
+Ouput:
 
 134587296
 278169354
@@ -575,10 +615,11 @@ CPU time              : 0.004 s
 462751938
 583692741
 
+Grid 40
+Memory used: 1.68 MB
+CPU time: 0.004 s
 
-grid 40
-Memory used           : 1.68 MB
-CPU time              : 0.004 s
+Ouput:
 
 193672485
 462358971
@@ -590,10 +631,11 @@ CPU time              : 0.004 s
 941523867
 357869142
 
+Grid 41
+Memory used: 1.67 MB
+CPU time: 0.004 s
 
-grid 41
-Memory used           : 1.67 MB
-CPU time              : 0.004 s
+Ouput:
 
 814976532
 659123478
@@ -605,10 +647,11 @@ CPU time              : 0.004 s
 587439621
 426517983
 
+Grid 42
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 42
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 384567921
 126439785
@@ -620,10 +663,11 @@ CPU time              : 0.004 s
 495286137
 678153492
 
+Grid 43
+Memory used: 1.80 MB
+CPU time: 0 s
 
-grid 43
-Memory used           : 1.80 MB
-CPU time              : 0 s
+Ouput:
 
 469158372
 712463859
@@ -635,10 +679,11 @@ CPU time              : 0 s
 294876135
 871325964
 
+Grid 44
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 44
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 316549278
 987321645
@@ -650,10 +695,11 @@ CPU time              : 0.004 s
 129753486
 763894152
 
+Grid 45
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 45
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 586127943
 723469851
@@ -665,10 +711,11 @@ CPU time              : 0.004 s
 352781496
 864395712
 
+Grid 46
+Memory used: 1.80 MB
+CPU time: 0 s
 
-grid 46
-Memory used           : 1.80 MB
-CPU time              : 0 s
+Ouput:
 
 954213687
 617548923
@@ -680,10 +727,11 @@ CPU time              : 0 s
 475129836
 396485712
 
+Grid 47
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 47
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 159743862
 276589431
@@ -695,10 +743,11 @@ CPU time              : 0.004 s
 861497523
 792356148
 
+Grid 48
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 48
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 861357294
 597482361
@@ -710,10 +759,11 @@ CPU time              : 0.004 s
 143826579
 625793418
 
+Grid 49
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 49
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 294863517
 715429638
@@ -725,10 +775,11 @@ CPU time              : 0.004 s
 521683493
 472951863
 
+Grid 50
+Memory used: 1.80 MB
+CPU time: 0.004 s
 
-grid 50
-Memory used           : 1.80 MB
-CPU time              : 0.004 s
+Ouput:
 
 351286497
 492157638
