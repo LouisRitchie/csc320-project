@@ -6,21 +6,6 @@
 // if input puzzle is empty, produce the ~8000 predicate disjunction in CNF
 
 
-/*
-
-Data structure for conjunction of clauses
-
-[
-  [ 111, 112, 113, 114, 115, ..., 119 ],
-  ...
-  [ -111, -115 ]
-  ...
-  [ -115, -125 ]
-  ...
-]
-
-*/
-
 
 /* SudokuCNF
  * A representation of a Sudoku board as ~8,800 booleans in Conjunctive Normal Form. Provides:
@@ -34,12 +19,14 @@ Data structure for conjunction of clauses
  */
 export default class SudokuCNF {
   // accepts our SudokuCNF structure to instantiate the class
-  constructor() {
-    this.cnf = cnf
+  constructor(cnf) {
+    if (!cnf) {
+      this.cnf = SudokuCNF.createFullCNF()
+    } else {
+      this.cnf = cnf
+    }
   }
 
-
-  // INSTANCE METHODS
 
   /* sets to true the propositional variable at index. Every clause containing that propositional
    * variable has two outcomes: Remove that variable if it's negated & remove that clause if not.
@@ -52,14 +39,16 @@ export default class SudokuCNF {
   }
 
 
-  // STATIC METHODS
-
-  parse(string) {
+  static parse(string) {
     return []
   }
 
   // returns the full SudokuCNF data structure.
-  createFullCNF() {
-
+  static createFullCNF() {
+    return []
   }
 }
+
+const myCNF = new SudokuCNF()
+SudokuCNF.createFullCNF()
+myCNF.toString()
