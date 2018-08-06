@@ -43,9 +43,31 @@ export default class SudokuCNF {
     return []
   }
 
-  // returns the full SudokuCNF data structure.
+  // returns every clause for an empty Sudoku board as a SudokuCNF data structure.
   static createFullCNF() {
-    return []
+    return [].concat.apply([], [
+      atLeastOneNumberInEachEntry(),
+      numberAppearsAtMostOnceInEachRow(),
+      numberAppearsAtMostOnceInEachColumn(),
+      numberAppearsAtMostOnceInEach3x3Grid()
+    ]
+  }
+
+  // the following five methods return arrays of clauses
+  static atLeastOneNumberInEachEntry() {
+
+  }
+
+  static numberAppearsAtMostOnceInEachRow() {
+
+  }
+
+  static numberAppearsAtMostOnceInEachColumn() {
+
+  }
+
+  static numberAppearsAtMostOnceInEach3x3Grid() {
+
   }
 }
 
