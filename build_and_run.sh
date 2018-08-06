@@ -1,2 +1,2 @@
 npm run-script build
-node lib/sud2sat.js
+node lib/sat2sud.js

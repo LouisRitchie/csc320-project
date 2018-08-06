@@ -76,7 +76,9 @@ export default class SudokuCNF {
     })
 
     rl.on('close', () => {
-      content.split('\n').map((line, i) => (
+      let [grid, output] = content.split('*')
+
+      grid.split('\n').map((line, i) => (
         line.split('').map((digit, j) => {
           if (digit !== '0') {
             result.push(Number(`${j+1}${i+1}${digit}`))
@@ -84,12 +86,9 @@ export default class SudokuCNF {
         })
       ))
 
-      result.map(this.setTrue)
-
-      this.variableCount = this.variableCount - result.length
-
-      // finally output to stdout
-      console.log(this.toString())
+      output = output.split(' ').filter(num => Number(num) > 0).map(Number)
+      console.log(result)
+      console.log(output)
     })
   }
 
@@ -107,3 +106,5 @@ export default class SudokuCNF {
 const sudokuCNF = new SudokuCNF()
 
 sudokuCNF.parse()
+
+
