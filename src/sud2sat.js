@@ -24,11 +24,8 @@ const numberAppearsAtMostOnceInEach3x3Grid = require('./numberAppearsAtMostOnceI
 export default class SudokuCNF {
   // accepts our SudokuCNF structure to instantiate the class
   constructor(cnf) {
-    if (!cnf) {
-      this.cnf = SudokuCNF.createFullCNF()
-    } else {
-      this.cnf = cnf
-    }
+    this.cnf = SudokuCNF.createFullCNF()
+    this.variableCount = 729
   }
 
 
@@ -57,7 +54,7 @@ export default class SudokuCNF {
 
   toString = () => {
     const clauseCount = this.cnf.length
-    let result = ''
+    let result = `p cnf ${this.variableCount} ${this.cnf.length}\n`
 
     for (let i=0; i<clauseCount; i++) {
       result = `${result}${this.cnf[i].reduce((acc, curr) => `${curr} ${acc}`, '0\n')}`
@@ -96,6 +93,9 @@ export default class SudokuCNF {
 
       result.map(this.setTrue)
 
+      this.variableCount = this.variableCount - result.length
+
+      // finally output to stdout
       console.log(this.toString())
     })
   }
