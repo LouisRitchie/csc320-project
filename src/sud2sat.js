@@ -67,7 +67,7 @@ export default class SudokuCNF {
   }
 
 
-  static parse(string) {
+  parse(string) {
     let result = []
     let content = ''
 
@@ -86,7 +86,6 @@ export default class SudokuCNF {
     })
 
     rl.on('close', () => {
-      console.log(content)
       content.split('\n').map((line, i) => (
         line.split('').map((digit, j) => {
           if (digit !== '0') {
@@ -95,7 +94,9 @@ export default class SudokuCNF {
         })
       ))
 
-      console.log(result)
+      result.map(this.setTrue)
+
+      console.log(this.toString())
     })
   }
 
@@ -112,6 +113,6 @@ export default class SudokuCNF {
 
 const sudokuCNF = new SudokuCNF()
 
-SudokuCNF.parse()
+sudokuCNF.parse()
 
 // console.log(sudokuCNF.toString())
