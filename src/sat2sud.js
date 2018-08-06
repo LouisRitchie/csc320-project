@@ -86,9 +86,29 @@ export default class SudokuCNF {
         })
       ))
 
-      output = output.split(' ').filter(num => Number(num) > 0).map(Number)
-      console.log(result)
-      console.log(output)
+      output = output.split(' ')
+        .filter(num => Number(num) > 0)
+        .map(num => {
+          const [char1, char2, char3] = num.split('')
+          return `${char2}${char1}${char3}`
+        })
+        .map(Number)
+
+      const entries = [
+        ...result.map(num => {
+          const [char1, char2, char3] = String(num).split('')
+          return `${char2}${char1}${char3}`
+        }),
+        ...output
+      ].sort()
+
+      let outputGridString = ''
+
+      entries.map((entry, i) => {
+        outputGridString = `${outputGridString}${entry % 10}${(i + 1) % 9 === 0 ? '\n' : ''}`
+      })
+
+      console.log(outputGridString)
     })
   }
 
