@@ -39,7 +39,14 @@ export default class SudokuCNF {
   }
 
   toString = () => {
-    console.log(JSON.stringify(this.cnf))
+    const clauseCount = this.cnf.length
+    let result = ''
+
+    for (let i=0; i<clauseCount; i++) {
+      result = `${result}${this.cnf[i].reduce((acc, curr) => `${curr} ${acc}`, '0\n')}`
+    }
+
+    return result
   }
 
 
@@ -58,4 +65,6 @@ export default class SudokuCNF {
   }
 }
 
-console.log(SudokuCNF.createFullCNF().length)
+const sudokuCNF = new SudokuCNF()
+
+console.log(sudokuCNF.toString())
