@@ -58,7 +58,4 @@ export default class SudokuCNF {
   }
 }
 
-const myCNF = new SudokuCNF()
-SudokuCNF.createFullCNF()
-myCNF.toString()
-console.log(SudokuCNF.atLeastOneNumberInEachEntry())
+console.log(SudokuCNF.createFullCNF().length)
