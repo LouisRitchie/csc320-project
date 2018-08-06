@@ -68,6 +68,7 @@ export default class SudokuCNF {
 
 
   static parse(string) {
+    let result = []
     let content = ''
 
     const rl = Readline.createInterface({
@@ -86,7 +87,15 @@ export default class SudokuCNF {
 
     rl.on('close', () => {
       console.log(content)
-      content.split('\n').map( ... )
+      content.split('\n').map((line, i) => (
+        line.split('').map((digit, j) => {
+          if (digit !== '0') {
+            result.push(Number(`${j+1}${i+1}${digit}`))
+          }
+        })
+      ))
+
+      console.log(result)
     })
   }
 
