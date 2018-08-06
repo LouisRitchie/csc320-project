@@ -36,7 +36,7 @@ function noHorizontalDuplicates() {
 
         for (let x=1; x<=3; x++) {
           for (let y=1; y<=3; y++) {
-            for (let k=y+1; k<=3; k++) {
+            for (let k=x+1; k<=3; k++) {
               for (let l=1; l<=3; l++) {
                 temp.push([Number(`-${3 * i + x}${3 * j + y}${z}`), Number(`-${3 * i + k}${3 * j + l}${z}`)])
               }
